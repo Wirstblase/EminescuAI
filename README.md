@@ -18,7 +18,7 @@ The program uses Tensorflow and Keras to train the RNN model on the vectorized t
 
 The model layers
 
-    Embedding layer: This layer is used to convert the vectorized text data into a lower-dimensional embedding space. The embedding space is a mathematical representation of the input data that captures the relationships between the input elements. The embedding layer takes in the vectorized text data and maps it to a dense vector representation, where each element in the vector corresponds to a unique character in the input data. This dense representation is then passed to the next layers in the model.
+    Embed ding layer: This layer is used to convert the vectorized text data into a lower-dimensional embedding space. The embedding space is a mathematical representation of the input data that captures the relationships between the input elements. The embedding layer takes in the vectorized text data and maps it to a dense vector representation, where each element in the vector corresponds to a unique character in the input data. This dense representation is then passed to the next layers in the model.
 
     GRU layer: The GRU (Gated Recurrent Unit) layer is a type of RNN (Recurrent Neural Network) that processes the input data and maintains an internal state that captures dependencies between elements in the input sequence. The GRU layer takes in the dense vector representation from the Embedding layer and processes it in a way that allows the model to maintain an understanding of the context and dependencies between the characters in the input text. Essentially, the GRU layer allows the model to understand the meaning of the input text and maintain a memory of the previous input elements.
 
